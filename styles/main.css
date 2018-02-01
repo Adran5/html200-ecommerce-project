@@ -53,6 +53,13 @@ nav a:hover {
 	border-bottom: none;
 	}
 /**************** HERO *****************/
+.wrapper-left {
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: left;
+	color: #3d7fcf;
+}
 
 header img {
   max-height: 6rem;
@@ -61,6 +68,11 @@ header img {
 h1 .logo-w {
   font-size: 3.5rem;
 }
+
+h1 .logo-text{
+	font-size: 2rem;
+}
+
 
 /**************** ASIDE ****************/
 
@@ -73,12 +85,6 @@ input[type="submit"] {
   color: white;
 }
 
-.wrapper-left {
-	display: flex;
-	flex-flow: row wrap;
-	font-weight: bold;
-	text-align: left;
-}
 /*********** PRODUCTS SECTION ***********/
 
 .wrapper {
