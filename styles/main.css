@@ -46,7 +46,6 @@ nav a:hover {
 .navigation a {
 	text-align: center;
 	padding: 10px;
-	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 	
@@ -88,9 +87,10 @@ input[type="submit"] {
 	flex: 1 100%;
 }
 
-
+	
+	
+}
 /* Original Styling - to be removed */
-/*
 section {
   padding: 0 .75rem;
 }
@@ -107,7 +107,6 @@ h3 {
   text-align: center;
   color: #2d2d2d;
 }
-*/
 
 
 /*********** Flexbox Sizing ***********/
