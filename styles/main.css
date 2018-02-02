@@ -20,45 +20,45 @@ nav a:hover {
   text-decoration: underline;
 }
 .navigation {
-	list-style: none;
-	margin: 0;
-	background: #3d7fcf;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: webkit-flex;
-	display: flex;
-	-webkit-flex: row wrap;
-	justify-content: center;
+  list-style: none;
+  margin: 0;
+  background: #3d7fcf;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: webkit-flex;
+  display: flex;
+  -webkit-flex: row wrap;
+  justify-content: center;
 }
 
 .navigation a {
-	text-decoration: none;
-	display: block;
-	padding: .5em;
-	color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  color: white;
 }
 
 .navigation a:hover {
-	background: #80a0be;
+  background: #80a0be;
 }
 
 .navigation a {
-	text-align: center;
-	padding: 10px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 	
 .navigation li:last-of-type a {
-	border-bottom: none;
+  border-bottom: none;
 }
 /**************** HERO *****************/
 .wrapper-left {
-	display: flex;
-	flex-flow: row wrap;
-	font-weight: bold;
-	text-align: left;
-	color: #3d7fcf;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: left;
+  color: #3d7fcf;
 }
 
 header img {
@@ -88,15 +88,15 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 .wrapper {
-	display: flex;
-	flex-flow: row wrap;
-	font-weight: bold;
-	text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
 }
 
 .wrapper > * {
-	padding: 10px;
-	flex: 1 100%;
+  padding: 10px;
+  flex: 1 100%;
 }
 
 /* Original Styling - to be removed */
@@ -120,28 +120,28 @@ h3 {
 
 /*********** Flexbox Sizing ***********/
 @media all and (max-width: 2400px) {
-	.navigation {
-	justify-content: space-around;
-	}
-	/*auto spacing for products	*/
-	.item { flex: 1; 
-	}
+  .navigation {
+  justify-content: space-around;
+  }
+  /*auto spacing for products	*/
+  .item { flex: 1; 
+  }
 }
 
 @media all and (max-width: 1100px) {
-	.navigation {
-	justify-content: space-around;
-	}
-	/*auto spacing for products	*/
-	
+  .navigation {
+  justify-content: space-around;
+  }
+  /*auto spacing for products	*/
+
 }
 
 @media all and (max-width: 320px) {
-	.navigation {
-	-webkit-flex-flow: column wrap;
-	flex-flow: column wrap;
-	padding: 0;
-	}
-	.item{ flex: 1 auto; 
-	}
+  .navigation {
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  padding: 0;
+  }
+  .item{ flex: 1 auto; 
+  }
 }
