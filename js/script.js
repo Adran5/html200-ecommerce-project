@@ -52,3 +52,11 @@ var products = [
   }
 ]
 
+function getEmail(){
+  event.preventDefault()
+  console.log("Form submitted")
+  var theEmail= document.custInfo.email.value
+  console.log(theEmail)
+  alert("Thank you for submitting your form " )
+  document.custInfo.email.value =""
+}
