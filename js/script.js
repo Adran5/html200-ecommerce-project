@@ -58,6 +58,6 @@ function getEmail(){
   console.log("Form submitted")
   var theEmail= document.custInfo.email.value
   console.log("Email value: "+theEmail)
-  alert("Thank you for submitting your form " )
+  alert("Thank you for signing up for our newsletter!" )
   document.custInfo.email.value =""
 }
