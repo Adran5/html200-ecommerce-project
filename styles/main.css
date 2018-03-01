@@ -2,7 +2,11 @@ body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
-
+@media (max-width: 500px){
+ body {
+   background: linear-gradient(#FF9999,#99CCFF); /* Change background to gradient when width is less than 500px */
+ }
+}
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
