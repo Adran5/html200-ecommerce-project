@@ -68,9 +68,9 @@ function updateCart(item) {
   var i = cart.indexOf(item)
   if (i == -1) {
       cart.push(item)
-      console.log(item + " scarf has been added to cart.")
+      console.log(item + " scarf has been added to cart."  +  "Iems in cart " + cart.length)
   } else {
     cart.splice(item, 1)
-    console.log(item + " scarf has been removed from cart.")
+    console.log(item + " scarf has been removed from cart."  +  "Iems in cart " + cart.length)
   }
 }
