@@ -61,3 +61,16 @@ function getEmail(){
   alert("Thank you for signing up for our newsletter!" )
   document.custInfo.email.value =""
 }
+
+//Add/Remove items from cart
+var cart = []
+function updateCart(item) {
+  var i = cart.indexOf(item)
+  if (i == -1) {
+      cart.push(item)
+      console.log(item + " scarf has been added to cart.")
+  } else {
+    cart.splice(item, 1)
+    console.log(item + " scarf has been removed from cart.")
+  }
+}
