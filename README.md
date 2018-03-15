@@ -69,4 +69,11 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+User Research:
+The target audience is Gen Y/Xer’s and mostly female. The content is important and should be written with a little flare. They have a college or higher level of education. They will most likely shop on their phones during work but, may wait till they are at home on a laptop to purchase the items. They are most likely going to find your site on google and social media. A social media present and ad dollars should be allocated there. 
+
+WebPageTest.org:
+Tested on Moto 4, Samsung 7s, iPhone 8. Load time varied from 1 -3 seconds and takes 1.4mb of data. The biggest usage of data is the images that take up 90% of the data. Filler backgrounds could be added to stand-in for images until they load for devices with slower connections.
+
+Responsiveness:
+Tested various desktop, tablet, and phone sizes. The design performed well overall. The breakpoints could be adjusted as larger phone screens didn’t collapse the navigation into rows. When the site is phone sized, the background color changes. One of the images does not have background which needs to be fixed. 
