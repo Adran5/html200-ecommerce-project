@@ -135,7 +135,7 @@ h3 {
 
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 411px) {
   .navigation {
   -webkit-flex-flow: column wrap;
   flex-flow: column wrap;
